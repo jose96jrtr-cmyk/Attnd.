@@ -1,10 +1,11 @@
-ATTND v0.6 — DEPLOYMENT
-1. Back up v0.5 records BEFORE switching.
-2. Create a public GitHub repository (e.g. attnd-app).
-3. Upload CONTENTS of this ZIP to repository root (index.html, sw.js, manifest.webmanifest, icons/, .nojekyll).
-4. Repository Settings > Pages > Deploy from a branch > main / root > Save.
-5. Open your HTTPS GitHub Pages URL in Samsung Internet and choose Add page to > Home screen (wording varies).
-6. Import your saved v0.5 JSON backup from History & documents.
-7. Test in airplane mode AFTER first online launch; check counts and restore.
-8. On future updates replace hosted app files at SAME URL and increment CACHE in sw.js.
-WARNING: Never upload personal attendance records, medical documents or backup JSON to a public repository. Local storage is NOT encrypted.
+ATTND v0.7 — PREMIUM INSIGHTS UPDATE
+
+1. Export your current Attnd backup BEFORE publishing this update.
+2. Upload/replace all files from this ZIP in the SAME existing GitHub repository and branch.
+3. Keep the existing GitHub Pages URL and path. Do not delete the repository or clear site data.
+4. After GitHub Pages deploys, reopen the home-screen shortcut while online. The service worker may show an update prompt; apply it, or refresh and reopen.
+5. Check your records, dashboard insights, backup export and restore, then test offline operation.
+
+This update preserves the existing localStorage key and backup structure. Browser data is not encrypted; never upload personal records to GitHub.
+
+The new insight figures reflect locally recorded data, not official HR decisions.
